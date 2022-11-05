@@ -5,3 +5,9 @@
 - print the result(file name and matches) to the screen
 '''
 
+'''
+regex in list
+regex in file
+regex in folder
+
+'''
