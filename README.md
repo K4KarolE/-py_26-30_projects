@@ -10,3 +10,9 @@
 - in a new browser tab look for the movie`s hungarian title
 - end of process confirmation message displayed
 - if you want to test it, make sure the excel sheet links are updated (around line 21, 211)
+
+
+28 - Motion Picture Details Scraping Decider
+- details scraping for: TV Movie, TV Special (project 27)// Movies (project 22) // TV Series (project 23)
+- instead of starting one of the 3 programs according of the new record`s type
+- start only one, which triggers the chosen one
