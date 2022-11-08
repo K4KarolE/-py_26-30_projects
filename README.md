@@ -16,7 +16,7 @@
 - instead of starting one of the 3 programs according of the new record`s type
 - start only one, which triggers the chosen one
 
-29 Google Map Launcher - Chapter 12 - Practice
+29 Google Maps Launcher - Chapter 12 - Practice
 - copy the address we want to search for
 - start the script
 - take the address from clipboard
