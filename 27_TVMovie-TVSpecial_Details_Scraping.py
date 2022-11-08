@@ -266,4 +266,5 @@ print()
 print(' Z-z-z '*k)
 print()
 
-sys.exit()
+input()
+# sys.exit()
