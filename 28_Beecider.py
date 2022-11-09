@@ -48,5 +48,5 @@ if n_type == 'm':
 if n_type == 's':
     run_Series()
 
-else:
+if n_type == 't':
     run_TV_Movie_TV_Special()
