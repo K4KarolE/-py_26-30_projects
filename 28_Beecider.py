@@ -22,7 +22,7 @@ def run_Series():
         call(["python", "23_TVShow_Details_Scraping.py"])
     if platform.system() == 'Linux':
         os.chdir(r"/media/zsandark/D/_DEV/Python/py_21-25_projects")
-        call(["python3", "23_TVShow_Details_Scraping.py"])
+        call(["python3", "23_TVShow_Details_Scraping_CP.py"])
 
 def run_TV_Movie_TV_Special():
     if platform.system() == 'Windows':
@@ -30,7 +30,7 @@ def run_TV_Movie_TV_Special():
         call(["python", "27_TVMovie-TVSpecial_Details_Scraping.py"])
     if platform.system() == 'Linux':
         os.chdir(r"/media/zsandark/D/_DEV/Python/py_26-30_projects")
-        call(["python3", "27_TVMovie-TVSpecial_Details_Scraping.py"])
+        call(["python3", "27_TVMovie-TVSpecial_Details_Scraping_CP.py"])
 
 # BANNER
 print('\n')
