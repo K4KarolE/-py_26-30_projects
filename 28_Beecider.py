@@ -6,18 +6,27 @@
 '''
 
 from subprocess import call
-import os
+import os, platform
 
 def run_Movie():
-    os.chdir(r"D:\_DEV\Python\py_21-25_projects")
+    if platform.system() == 'Windows':
+        os.chdir(r"D:\_DEV\Python\py_21-25_projects")
+    if platform.system() == 'Linux':
+        os.chdir(r"/media/zsandark/D/_DEV/Python/py_21-25_projects")
     call(["python", "22_Movie_Details_Scraping.py"])
 
 def run_Series():
-    os.chdir(r"D:\_DEV\Python\py_21-25_projects")
+    if platform.system() == 'Windows':
+        os.chdir(r"D:\_DEV\Python\py_21-25_projects")
+    if platform.system() == 'Linux':
+        os.chdir(r"/media/zsandark/D/_DEV/Python/py_21-25_projects")
     call(["python", "23_TVShow_Details_Scraping.py"])
 
 def run_TV_Movie_TV_Special():
-    os.chdir(r"D:\_DEV\Python\py_26-30_projects")
+    if platform.system() == 'Windows':
+        os.chdir(r"D:\_DEV\Python\py_26-30_projects")
+    if platform.system() == 'Linux':
+        os.chdir(r"/media/zsandark/D/_DEV/Python/py_26-30_projects")
     call(["python", "27_TVMovie-TVSpecial_Details_Scraping.py"])
 
 # BANNER

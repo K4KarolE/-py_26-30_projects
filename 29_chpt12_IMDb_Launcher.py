@@ -5,3 +5,12 @@
 - take the address from clipboard
 - launch the browser / IMDb search result
 '''
+
+import pyperclip as pc
+import webbrowser
+
+searchingFor = pc.paste()
+sepSFor = searchingFor.split(' ')
+
+link = 'https://www.imdb.com/find?q='+ '+'.join(sepSFor)
+webbrowser.open(link)

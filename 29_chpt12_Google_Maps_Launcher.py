@@ -5,3 +5,12 @@
 - take the address from clipboard
 - launch the browser / Google Maps with the address
 '''
+
+import pyperclip as pc
+import webbrowser
+
+searchingFor = pc.paste()
+sepSFor = searchingFor.split(' ')
+
+link = 'https://www.google.co.uk/maps/search/'+ '+'.join(sepSFor)
+webbrowser.open(link)
