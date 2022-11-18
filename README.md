@@ -1,7 +1,6 @@
 26 - Regex Search - Chapter 6 - Practice
-- ask the user the route to the folder
-- ask the user the regular expression the program should looking for
-- print the result(file name and matches) to the screen
+- find phone number in a list
+- find email address in a list
 
 27 - TV Movie, TV Special Details Scraping - Excel + Selenium / optimized for TV Movies, TV Specials, not ideal for Movies, TV Series (project 22/23) /
 - ask the new title`s IMDb link
