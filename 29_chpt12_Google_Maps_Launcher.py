@@ -1,7 +1,7 @@
 '''
 29 Google Maps Launcher
-- copy the address we want to search for
-- start the script
+- user: copy the address we want to search for
+- user: start the script
 - take the address from clipboard
-- launch the browser / Google Map with the address
+- launch the browser / Google Maps with the address
 '''

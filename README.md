@@ -17,7 +17,13 @@
 - start only one, which triggers the chosen one
 
 29 Google Maps Launcher - Chapter 12 - Practice
-- copy the address we want to search for
+- user: copy the address we want to search for
+- user: start the script
+- take the address from clipboard
+- launch the browser / Google Maps with the address
+
+29 IMDb Launcher - Chapter 12 - Practice
+- copy the title we want to search for
 - start the script
 - take the address from clipboard
-- launch the browser / Google Map with the address
+- launch the browser / IMDb search result

@@ -15,12 +15,13 @@ regex in folder
 import re
 
 list = ['bubuka@gmail.com','bubu.pa@gmail.com','bubu-ta@gmail.com','4',
-         '077 566 5654','077_566_5654', '0775665654','077-566-5654','random words', '554654654']
+         '077 566 5654','077_566_5654', '0775665654','077-566-123', '077-566-5654', '077K566K5654'
+         'random words', '554654654']
 
-phoneNumRegex = re.compile(r'\d\d\d.\d\d\d.\d\d\d') #
+phoneNumRegex = re.compile(r'\d{3}.\d{3}.\d{4}')
 for i in list:
     searchPN = phoneNumRegex.search(i)
     if phoneNumRegex.search(i):
-        print(searchPN.group())
+        print('Match: ' + searchPN.group())
     else:
         print('No match')
