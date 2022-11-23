@@ -1,3 +1,5 @@
+#!/usr/bin python3
+
 '''
 28 - Beecider - Motion Picture Details Scraping Decider
 - details scraping for: TV Movie, TV Special (project 27)// Movies (project 22) // TV Series (project 23)

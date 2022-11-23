@@ -1,0 +1,1 @@
+@py.exe d:\_DEV\Python\py_26-30_projects\28_Beecider.py %*

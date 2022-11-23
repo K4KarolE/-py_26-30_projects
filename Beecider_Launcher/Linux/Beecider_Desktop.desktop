@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Beecider
+Exec=/home/zsandark/_DEV/Scripts_L/Beecider/Beecider_SH.sh
+Type=Application
+Icon=/home/zsandark/Applications/icoNs/bee2.png
+Terminal=true
