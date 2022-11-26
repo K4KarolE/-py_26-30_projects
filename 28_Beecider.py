@@ -8,7 +8,9 @@
 '''
 
 from subprocess import call
-import os, platform
+import os, platform, shutil
+
+terminal_columns = shutil.get_terminal_size().columns
 
 def run_Movie():
     if platform.system() == 'Windows':
@@ -37,18 +39,19 @@ def run_TV_Movie_TV_Special():
 # BANNER
 print('\n')
 k = 11
-print(' Z-z-z '*k)
+print((' Z-z-z '*k).center(terminal_columns))
 print()
-print(' Beecider '.center(len(' Z-z-z '*k)))
+print(' Beecider '.center(terminal_columns))
 print()
-print(' Z-z-z '*k)
+print((' Z-z-z '*k).center(terminal_columns))
 print()
 
-print('Which type of nectar should I collect for you?'.center(len(' Z-z-z '*k)))
-print('Movie(M) / Show-Series(S) / TV Movie(T) '.center(len(' Z-z-z '*k)))
+print('Which type of nectar should I collect for you?'.center(terminal_columns))
+print('Movie(M) / Show-Series(S) / TV Movie(T) '.center(terminal_columns))
 
 print()
-print(''.ljust(len(' Z-z-z '*int(k/2))), ' ', end='')   # move the cursor to middle 
+# print('t'.ljust(len(' Z-z-z '*int(k/2))), ' ', end='')   # original - move the cursor to middle
+print(''.rjust(int((terminal_columns/2)-1)), end='')  
 n_type = input().lower()
 
 while n_type not in ['m','s','t']:

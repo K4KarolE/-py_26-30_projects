@@ -18,16 +18,18 @@ from datetime import date
 
 import pyperclip as pc
 
-import sys, webbrowser, platform
+import sys, webbrowser, platform, shutil
+
+terminal_columns = shutil.get_terminal_size().columns
 
 # BANNER
 print()
 k = 11
-print(' Z-z-z '*k)
+print((' Z-z-z '*k).center(terminal_columns))
 print()
-print(' I aM D bee! '.center(len(' Z-z-z '*k)))
+print(' I aM D bee! '.center(terminal_columns))
 print()
-print(' Z-z-z '*k)
+print((' Z-z-z '*k).center(terminal_columns))
 print('\n')
 
 link = pc.paste()               #taking the link from clipboard
@@ -286,9 +288,9 @@ webbrowser.open(link)
 
 k = 6
 print()
-print(' Z-z-z '*k)
+print((' Z-z-z '*k).center(terminal_columns))
 print()
-print(' Honey added to your jar! '.center(len(' Z-z-z '*k)))
+print(' Honey added to your jar! '.center(terminal_columns))
 print()
-print(' Z-z-z '*k)
+print((' Z-z-z '*k).center(terminal_columns))
 print()
