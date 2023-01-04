@@ -10,7 +10,9 @@ import pyperclip as pc
 import webbrowser
 
 searchingFor = pc.paste()
-sepSFor = searchingFor.split(' ')
+
+sepSFor = searchingFor.split()
 
 link = 'https://www.google.co.uk/maps/search/'+ '+'.join(sepSFor)
+
 webbrowser.open(link)

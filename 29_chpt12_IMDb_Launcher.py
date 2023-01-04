@@ -10,7 +10,9 @@ import pyperclip as pc
 import webbrowser
 
 searchingFor = pc.paste()
-sepSFor = searchingFor.split(' ')
 
-link = 'https://www.imdb.com/find?q='+ '+'.join(sepSFor)
+sep_title = searchingFor.split()
+
+link = 'https://www.imdb.com/find?q=' + '+'.join(sep_title)
+
 webbrowser.open(link)
