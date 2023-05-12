@@ -1,4 +1,6 @@
-'''
+''' 
+Corey Schafer - Python OOP Tutorial
+
 Object-Oriented Programming benefits:
     - allow us to logically group our data / functions in a way:
         + easy to re-use
