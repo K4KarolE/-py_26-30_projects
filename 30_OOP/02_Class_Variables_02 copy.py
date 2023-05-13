@@ -1,7 +1,7 @@
 
 class Employee:
 
-    number_of_employee = 0      #!
+    number_of_employee = 0
     raise_amount = 1.04
 
     def __init__(self, first_name, last_name, email_private, pay):
