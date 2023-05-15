@@ -40,3 +40,6 @@ class Employee:
         self.pay = pay
         self.email_comp = first_name + '.' + last_name + '@company.com'
         self.email_private = email_private
+
+
+''' __init__ - double underscore can be called "dunder" '''
