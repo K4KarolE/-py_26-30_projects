@@ -26,3 +26,5 @@
 - start the script
 - take the address from clipboard
 - launch the browser / IMDb search result
+
+## 30 Object-Oriented Programming principles
