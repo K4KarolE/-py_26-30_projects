@@ -18,13 +18,19 @@
 ## 29 Google Maps Launcher - Chapter 12 - Practice
 - user: copy the address we want to search for
 - user: start the script
-- take the address from clipboard
-- launch the browser / Google Maps with the address
+- it takes the address from clipboard
+- it launches Google Maps in a new browser tab displaying the direction between "your postcode" and the "target location"
 
 ## 29 IMDb Launcher - Chapter 12 - Practice
-- copy the title we want to search for
-- start the script
-- take the address from clipboard
-- launch the browser / IMDb search result
+- user: copy the title we want to search for
+- user: start the script
+- it takes the address from clipboard
+- it launches the browser / IMDb search result
 
 ## 30 Object-Oriented Programming principles
+
+## 31 Google Translate Launcher
+- user: copy the word(s) you want to search for
+- user: start the script
+- it takes the address from clipboard
+- it launches the browser / Google Translate result (ENG->HUN)
